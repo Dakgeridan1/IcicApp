@@ -55,11 +55,11 @@ const HandleSignIn = () => {
       <TextInput 
       onChangeText={(text)=>setEmail(text)}
       style={styles.textInput} 
-      placeholder="E-mail" />
+      placeholder="Correo electronico" />
       <TextInput
         onChangeText={(text)=>setPassword(text)}
         style={styles.textInput}
-        placeholder="Password"
+        placeholder="Contraseña"
         secureTextEntry={true}
       />
       <StatusBar style="auto" />

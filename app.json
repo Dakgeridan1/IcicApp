@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CmicApp",
-    "slug": "icic",
+    "name": "IcicApp",
+    "slug": "icicapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/LogoExpo.png",
@@ -19,14 +19,18 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#f1f1f1"
       },
-      "package": "com.dakgeridan.CmicApp"
+      "package": "com.dakgeridan.CmicApp",
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
     },
     "web": {
       "favicon": "./assets/Favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "fb4d778e-f602-4d92-a19b-b211b9464f97"
+        "projectId": "45ffec5f-a790-48b3-83ab-e7496d164a7b"
       }
     },
     "owner": "dakgeridan"

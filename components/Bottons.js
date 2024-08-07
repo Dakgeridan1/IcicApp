@@ -66,7 +66,7 @@ function ButtonSignUp({ navigation, handleCreateAccount }) {
         end={{ x: 1, y: 1 }}
         style={styles.buttonBL}
       >
-        <Text style={styles.textBL}>SignUp</Text>
+        <Text style={styles.textBL}>Crear cuenta</Text>
       </LinearGradient>
     </TouchableOpacity>
   );
@@ -86,7 +86,7 @@ function ButtonChangePassword({ handlePasswordReset, isButtonDisabled, timeLeft 
         style={styles.buttonBL}
       >
         <Text style={styles.textBL}>
-          {isButtonDisabled ? `Espere ${timeLeft} segundos` : 'Change password'}
+          {isButtonDisabled ? `Espere ${timeLeft} segundos` : 'Cambiar contraseña'}
         </Text>
       </LinearGradient>
     </TouchableOpacity>

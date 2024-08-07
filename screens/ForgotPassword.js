@@ -89,12 +89,11 @@ const ForgotPassword = ({ navigation }) => {
           style={styles.imageSignUp}
         />
       </View>
-      <Text style={styles.title}>¿Olvidaste tu contraseña?</Text>
-      <Text style={styles.subTitle}>Introduce tu correo y te enviaremos</Text>
-      <Text style={styles.subTitle}>instrucciones para restablecer tu contraseña</Text>
+      <Text style={styles.titleForgot}>¿Olvidaste tu contraseña?</Text>
+      <Text style={styles.subTitleForgot}>Introduce tu correo y te enviaremos instrucciones para restablecer tu contraseña</Text>
       <TextInput 
         style={styles.textInput}
-        placeholder="E-Mail"
+        placeholder="Correo electrónico"
         onChangeText={(text) => setEmail(text)}
         value={email}
         keyboardType="email-address"

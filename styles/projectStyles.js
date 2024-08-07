@@ -25,6 +25,7 @@ const Styles = StyleSheet.create({
     marginTop: 20,
     borderRadius: 30,
     backgroundColor: 'white',
+    color: '#9E9E9E',
   },
   forgotPassword: {
     fontSize: 14,
@@ -33,7 +34,7 @@ const Styles = StyleSheet.create({
   },
   register: {
     fontSize: 14,
-    color: 'red',
+    color: '#e20014',
     marginTop: 20,
     textDecorationLine: 'underline',  // Subrayar el texto
   },
@@ -48,7 +49,6 @@ const Styles = StyleSheet.create({
   image: {
     width: 360,
     height: 150,
-    
     alignItems: 'center',
     justifyContent: 'center',
   },
@@ -98,8 +98,35 @@ imageSignUp: {
   justifyContent: 'center',
   width: 350,
   height: 150,
-  marginBottom: 30,
- 
+  paddingTop: 30,
+},
+titleForgot: {
+  fontSize: 30, 
+  paddingBottom: 20,
+  color: 'black',
+  fontWeight: 'bold',
+  justifyContent: 'center',
+},
+subTitleForgot: {
+  fontSize: 20, 
+  color: 'black',
+  textAlign: 'center',
+},
+
+titleRegister: {
+  fontSize: 50, 
+  color: 'black',
+  fontWeight: 'bold',
+  justifyContent: 'center',
+},
+subTitleRegister: {
+  fontSize: 25, 
+  color: 'black',
+  justifyContent: 'center',
+},
+dateInputText : {
+  backgroundColor: 'white',
+  color: '#9E9E9E',
 },
 });
 
